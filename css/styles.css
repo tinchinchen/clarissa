@@ -5,28 +5,45 @@ body {
 
 h2 {
   font-size: 1.75rem;
+  color: grey;
 }
+
 
 /* Sections */
 .color-selection {
   background-color: #f7c1d9;
-  }
+}
 
 /* Navigation bar */
 .navbar-brand {
   font-size: 1.75rem;
+  font-family: "Montserrat";
+}
+
+.nav-link {
+  color: grey !important;
+}
+
+@media (max-width : 900px) {
+  .nav-link {
+    font-size: 1.5rem;
+  }
+
+  .navbar-brand {
+    font-size: 2.2rem;
+  }
 }
 
 /* Containers */
 .container-fluid {
-  padding:  0 5%;
+  padding: 0 5%;
   background-color: #f7c1d9;
   padding-top: 2%;
 }
 
 /* logo & main section */
 .mainLogo {
-  width: 40%;
+  width: 55%;
   padding: 5% 0;
 }
 
@@ -41,10 +58,11 @@ h2 {
 .feature-box {
   padding: 3%;
   font-size: 1rem;
+  color: grey;
 }
 
 .icon {
-  color: #533125;
+  color: #fff;
   margin-bottom: 1rem;
 }
 
@@ -55,3 +73,29 @@ h2 {
 .introSection {
   padding: 0 12%;
 }
+
+/* testimonial */
+.whiteContainer {
+  padding: 7% 18%;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+      filter: invert(50%);
+  }
+
+/* CTA */
+.Contact-us {
+  padding: 7% 10%;
+}
+
+  /* footer */
+.footer-section {
+  padding-top: 100px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+/* CTA */
